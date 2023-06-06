@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="#{message.title}"></title>
+</head>
+<body>
+Language: <a href="?lang=en">English</a> |<a href="?lang=vi">VN</a>
+<h1 th:text="#{message.heading}"></h1>
+<table border="1px">
+    <th>STT</th>
+    <th th:text="#{message.table_column1}"></th>
+    <th th:text="#{message.table_column2}"></th>
+    <tbody th:each="">
+    </tbody>
+</table>
+</body>
+</html>
